@@ -33,7 +33,7 @@ export default class Calculator extends Component {
     render() {
         return (
             <div className="calculator">
-                <Display value={100} />
+                <Display value={1200} />
                 <Button label="AC" click={this.clearMemory} triple/>
                 <Button label="/" click={this.serOperation} operation/>
                 <Button label="7" click={this.addDigit} />
