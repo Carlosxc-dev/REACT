@@ -24,7 +24,7 @@ export default class Saudacao extends Component{
     }
     
     render(){
-        const {tipo, nome } = this.state
+        const {tipo, nome} = this.state
         return (
         <div>
             <h1>{tipo} {nome}</h1>
@@ -33,7 +33,6 @@ export default class Saudacao extends Component{
             value={tipo} onChange={e => this.setTipo(e)}/>
             <input type="text" placeholder="nome..." 
             value={nome} onChange={e => this.setNome(e)}/>
-            
         </div>
         )
     }

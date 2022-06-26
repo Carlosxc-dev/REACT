@@ -1,7 +1,7 @@
 import React from "react";
 
 export default props => {
-    <li>
+    <h2>
         {props.nome} {props.sobrenome}
-    </li>
+    </h2>
 }
